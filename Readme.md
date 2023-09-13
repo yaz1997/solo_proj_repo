@@ -34,7 +34,7 @@ This code aims to identify hosts who have significantly expanded their portfolio
 ## Output:
 ![Output for Question 1](/home/riyaz/Documents/solo_project/image/output1.png)
 
-## 2.Calculate the booking rate (percentage of available dates booked) for each listing, considering the day of the week. Identify listings with significant booking rate fluctuations based on the day of the week. Also, display the day with highest average booking rate and the create a pivot that shows days of a week and the average booking rates for each.
+## 2. Calculate the booking rate (percentage of available dates booked) for each listing, considering the day of the week. Identify listings with significant booking rate fluctuations based on the day of the week. Also, display the day with highest average booking rate and the create a pivot that shows days of a week and the average booking rates for each.
 
 ## Insights:
 You can gain insights into how different listings are booked on different days of the week, identify listings with booking rate fluctuations, and understand if there are particular days that tend to have higher average booking rates. This information can be valuable for property management and marketing strategies.

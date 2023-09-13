@@ -67,8 +67,8 @@ calendar_df = spark.read \
     .format("jdbc") \
     .option("url", "jdbc:postgresql://localhost:5432/postgres") \
     .option("dbtable", "calendar_df") \
-    .option("user", "postgres") \
-    .option("password", "fuseriyaz97") \
+    .option("user", user) \
+    .option("password", password) \
     .option("driver", "org.postgresql.Driver") \
     .load()
 calendar_df.show(truncate=False)
@@ -78,19 +78,20 @@ listing_df = spark.read \
     .format("jdbc") \
     .option("url", "jdbc:postgresql://localhost:5432/postgres") \
     .option("dbtable", "listing_df") \
-    .option("user", "postgres") \
-    .option("password", "fuseriyaz97") \
+    .option("user", user) \
+    .option("password", password) \
     .option("driver", "org.postgresql.Driver") \
     .load()
 listing_df.show(truncate=False)
+
 
 # %%
 review_df = spark.read \
     .format("jdbc") \
     .option("url", "jdbc:postgresql://localhost:5432/postgres") \
     .option("dbtable", "review_df") \
-    .option("user", "postgres") \
-    .option("password", "fuseriyaz97") \
+    .option("user", user) \
+    .option("password", password) \
     .option("driver", "org.postgresql.Driver") \
     .load()
 review_df.show(truncate=False)
