@@ -22,7 +22,7 @@ You can install PySpark and set up your environment using the official [PySpark 
 
 # Schema
 
-![Schema representation](/home/riyaz/Documents/solo_project/image/miniprojectschema.jpg)
+![Schema representation](/image/miniprojectschema.jpg)
 
 # Questions:
 
@@ -32,7 +32,7 @@ You can install PySpark and set up your environment using the official [PySpark 
 This code aims to identify hosts who have significantly expanded their portfolio of listings over time and extract common characteristics among them. The "portfolio_growth" metric is used to measure this growth, and hosts exceeding the specified threshold can be considered for further analysis. The resulting Data Frame provides insights into the characteristics of hosts with substantial portfolio growth.
 
 ## Output:
-![Output for Question 1](/home/riyaz/Documents/solo_project/image/output1.png)
+![Output for Question 1](/image/output1.png)
 
 ## 2. Calculate the booking rate (percentage of available dates booked) for each listing, considering the day of the week. Identify listings with significant booking rate fluctuations based on the day of the week. Also, display the day with highest average booking rate and the create a pivot that shows days of a week and the average booking rates for each.
 
@@ -40,9 +40,9 @@ This code aims to identify hosts who have significantly expanded their portfolio
 You can gain insights into how different listings are booked on different days of the week, identify listings with booking rate fluctuations, and understand if there are particular days that tend to have higher average booking rates. This information can be valuable for property management and marketing strategies.
 
 ## Output:
-![Output for Question 2.1](/home/riyaz/Documents/solo_project/image/output2_1.png)
+![Output for Question 2.1](/image/output2_1.png)
 
-![Output for Question 2.2](/home/riyaz/Documents/solo_project/image/output2_2.png)
+![Output for Question 2.2](/image/output2_2.png)
 
 # Running the Code
 To run the PySpark code and explore the analysis, you can use the provided Jupyter Notebook files in the notebooks/ directory. Make sure to adjust the file paths according to your local setup.
