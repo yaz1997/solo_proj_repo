@@ -24,6 +24,18 @@ You can install PySpark and set up your environment using the official [PySpark 
 
 ![Schema representation](/image/miniprojectschema.jpg)
 
+# Tasks:
+* Import raw datasets.
+* Perform necessary pre-processing and cleaning operations and obtain cleaned dataset.
+* Import cleaned datasets to Spark.
+* Connect Spark with Postgres.
+* Export cleaned datasets to postgres.
+* Then, Import those datasets from postgres to spark.
+* Perform necessary actions on the formulated questions.
+* Perform spark submit.
+* Schedule running spark using cronitor.
+* Push all necessary files to a new repo on Github.
+
 # Questions:
 
 ## 1. Host Portfolio Growth Analysis: Identify hosts who have significantly grown their portfolio over time by calculating the percentage increase in the number of listings they manage. Analyze any common characteristics among these hosts.
